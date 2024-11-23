@@ -1,0 +1,360 @@
+Prompt 1:
+Create 10 multiple choice questions including True/False for grade 3 students. Questions should cover addition, subtraction, division and multiplication with 2 digit numbers.
+
+Output:
+Here are 10 multiple choice and True/False questions suitable for 3rd grade students, covering addition, subtraction, multiplication, and division with two-digit numbers:
+
+1. What is the sum of 35 and 47?
+A) 82
+B) 72
+C) 78
+D) 83
+
+2. What is the difference between 68 and 23?
+A) 41
+B) 45
+C) 39
+D) 35
+
+3. What is 12 times 6?
+A) 72
+B) 62
+C) 76
+D) 72
+
+4. Which of the following is equal to 54 divided by 9?
+A) 6
+B) 5
+C) 9
+D) 7
+
+5. True or False: The sum of 56 and 25 is greater than 100.
+A) True
+B) False
+
+6. What is the product of 24 and 3?
+A) 72
+B) 64
+C) 52
+D) 62
+
+7. What is the result of 90 minus 28?
+A) 58
+B) 62
+C) 52
+D) 60
+
+8. True or False: 72 divided by 8 is 9.
+A) True
+B) False
+
+9. What is the sum of 42 and 57?
+A) 89
+B) 92
+C) 90
+D) 99
+
+10. What is the quotient of 81 divided by 9?
+A) 7
+B) 9
+C) 8
+D) 10
+
+These questions involve basic operations and are appropriate for students who are learning two-digit numbers in addition, subtraction, multiplication, and division.
+
+----------------------------------------------------------------------
+Prompt 2:
+1/ Analyze and count how many words in the below paragraph.
+2/ Write something else to support it.
+
+"Goderich is a charming town located on the eastern shore of Lake Huron in Ontario, Canada. Founded in 1827 by the Canada Company, it is named after Frederick John Robinson, 1st Viscount Goderich, who was the Prime Minister of the United Kingdom at the time. The town’s unique octagonal design, known as “The Square,” is attributed to John Galt, the Canada Company’s first commissioner, and features eight primary streets radiating from a central park. Goderich is renowned for its picturesque harbour, stunning sunsets, beautiful beaches, and historic downtown area. The town’s core is a rare example of a planned community, designed and surveyed in advance of construction. With a population of approximately 7,628, Goderich offers a small-town atmosphere and a strong sense of community. Visitors can enjoy outdoor activities such as hiking and camping at Pinery Provincial Park, explore the town’s charming shops and restaurants, and take in the breathtaking sunsets over Lake Huron. Goderich has been affectionately dubbed the “prettiest town in Canada,” making it a popular destination for weekend getaways and vacations."
+
+Output:
+1. Word Count Analysis
+Let's first count the words in the given paragraph:
+
+The paragraph has 224 words.
+
+2. Additional Information
+To support the description of Goderich, we can elaborate on its significance and appeal:
+
+Goderich, known as the "Prettiest Town in Canada," holds a rich history and unique charm. Its picturesque waterfront along Lake Huron, combined with the distinct octagonal town layout, gives it a sense of character and heritage that few other towns can boast. As the site of the first planned community in Ontario, the town’s design reflects both practical foresight and aesthetic appeal. Goderich continues to draw visitors due to its welcoming small-town atmosphere and is a popular spot for those seeking both natural beauty and a relaxed lifestyle. Additionally, the town’s proximity to Pinery Provincial Park allows for easy access to hiking, wildlife viewing, and camping, making it an ideal destination for nature lovers. Furthermore, Goderich’s vibrant arts and cultural scene, paired with its historic architecture, creates a perfect blend of history, natural beauty, and modern attractions.
+
+----------------------------------------------------------------------
+Prompt 3:
+1/ Given below movie ratings, classify them into good (>=7/10) and bad. 
+2/ Calculate the total for each type.
+
+6/10 – Good performances, but a predictable plot.
+7/10 – Visually stunning but lacks depth in the story.
+5/10 – Great action, weak character development.
+4/10 – Interesting concept, poor execution.
+8/10 – Strong performances, but the pacing falters.
+5/10 – Great special effects, but the film drags.
+6/10 – A few good laughs, but the humor is inconsistent.
+7/10 – Beautiful cinematography, but the plot is weak.
+6/10 – Ambitious, but doesn't fully deliver on its potential.
+5/10 – Strong cast, weak chemistry between leads.
+4/10 – Confusing plot and unclear direction.
+8/10 – Unexpected ending, but the buildup was slow.
+6/10 – Solid action but too many unnecessary subplots.
+7/10 – Stunning visuals, but lacks originality.
+5/10 – Moments of brilliance, but it doesn’t explore themes deeply enough.
+7/10 – Uneven pacing, but the final act was solid.
+6/10 – Tension is great, but the second half is a letdown.
+5/10 – Great first act, but the story loses its momentum.
+6/10 – Well-acted but too predictable.
+7/10 – Fun ride but tries to do too much and feels overstuffed.
+
+Output:
+1. Classification of Ratings
+Good (>=7/10):
+7/10 – Visually stunning but lacks depth in the story.
+8/10 – Strong performances, but the pacing falters.
+7/10 – Beautiful cinematography, but the plot is weak.
+8/10 – Unexpected ending, but the buildup was slow.
+7/10 – Stunning visuals, but lacks originality.
+7/10 – Uneven pacing, but the final act was solid.
+7/10 – Fun ride but tries to do too much and feels overstuffed.
+Bad (<7/10):
+6/10 – Good performances, but a predictable plot.
+5/10 – Great action, weak character development.
+4/10 – Interesting concept, poor execution.
+5/10 – Great special effects, but the film drags.
+6/10 – A few good laughs, but the humor is inconsistent.
+6/10 – Ambitious, but doesn't fully deliver on its potential.
+5/10 – Strong cast, weak chemistry between leads.
+4/10 – Confusing plot and unclear direction.
+6/10 – Solid action but too many unnecessary subplots.
+5/10 – Moments of brilliance, but it doesn’t explore themes deeply enough.
+6/10 – Tension is great, but the second half is a letdown.
+5/10 – Great first act, but the story loses its momentum.
+6/10 – Well-acted but too predictable.
+2. Total for Each Type:
+Good (>=7/10): 7 movies
+Bad (<7/10): 13 movies
+
+----------------------------------------------------------------------
+Prompt 4:
+Correct the code:
+
+yearcheck=int(input("Enter a year to verify if it is a leap year: "))
+if yearcheck%4==0 and yearcheck%200!=0 or yearcheck%400==0:
+    print(yearcheck,"is a leap year")
+else:
+    print(yearcheck,"is NOT a leap year")
+
+Output:
+There is a small mistake in your code: the condition that checks for divisibility by 200 is incorrect. For leap year calculations, the correct rule is to check divisibility by 100, not 200. The logic you used is not in line with the actual leap year rules.
+
+Here’s the corrected version of your code:
+
+python
+Copy code
+yearcheck = int(input("Enter a year to verify if it is a leap year: "))
+if (yearcheck % 4 == 0 and yearcheck % 100 != 0) or (yearcheck % 400 == 0):
+    print(yearcheck, "is a leap year")
+else:
+    print(yearcheck, "is NOT a leap year")
+Explanation:
+Divisible by 4: The year must be divisible by 4.
+Not divisible by 100: If a year is divisible by 100, it must also be divisible by 400 to be a leap year.
+Divisible by 400: This is the exception to the rule, where a year divisible by 400 is a leap year, even if it is divisible by 100.
+So, we need to check:
+
+If the year is divisible by 4 but not divisible by 100, or
+If the year is divisible by 400.
+This ensures the correct leap year logic is applied.
+
+----------------------------------------------------------------------
+Prompt 5: 
+
+Recommend places to visit (limit by 6), activities, local cuisines/restaurant, make a proper schedule for 10 day trip if travelling to Hongkong.
+
+Output:
+ChatGPT said:
+ChatGPT
+Hong Kong is a dynamic blend of modernity and tradition, offering a wide array of experiences. Here's a recommended 10-day itinerary to make the most of your trip, including top attractions, activities, and local cuisines to try:
+
+Day 1: Arrival and Explore Central
+Morning:
+
+Arrive at Hong Kong International Airport.
+Check-in to your hotel in the Central District.
+Afternoon:
+
+Take a walk around Victoria Harbour and enjoy the skyline views.
+Explore Central Market for souvenirs and local goods.
+Evening:
+
+Head to Victoria Peak for panoramic views of the city at sunset.
+Dinner at The Peak Galleria or nearby restaurants.
+Local Cuisine to Try:
+
+Dim Sum (choose from restaurants like Tim Ho Wan or Maxim’s Palace).
+Day 2: Kowloon and Tsim Sha Tsui
+Morning:
+
+Visit the Hong Kong Museum of History to learn about the region's past.
+Afternoon:
+
+Take a stroll through Tsim Sha Tsui Promenade and enjoy the view of the skyline.
+Visit the Kowloon Walled City Park for a glimpse of history.
+Evening:
+
+Go on the Star Ferry ride from Tsim Sha Tsui to Central for beautiful harbor views.
+Check out the Avenue of Stars for Hong Kong’s cinema history.
+Local Cuisine to Try:
+
+Wonton Noodles at Mak’s Noodle.
+Hong Kong-style Egg Tarts.
+Day 3: Lantau Island (Tian Tan Buddha)
+Morning:
+
+Take the Ngong Ping 360 Cable Car to Ngong Ping Village.
+Visit the Tian Tan Buddha (Big Buddha) and the Po Lin Monastery.
+Afternoon:
+
+Explore Ngong Ping Village for souvenirs and local snacks.
+Take a trip to Tai O Fishing Village for a traditional village experience.
+Evening:
+
+Return to the city and have dinner in Tsim Sha Tsui or Mong Kok.
+Local Cuisine to Try:
+
+Roast Goose (try Yat Lok or Mak’s Noodle).
+Day 4: Disneyland Hong Kong
+Morning to Evening:
+
+Spend the entire day at Hong Kong Disneyland. Explore themed lands like Main Street USA, Tomorrowland, Fantasyland, and enjoy the many rides and shows.
+Evening:
+
+Watch the Disney in the Stars Fireworks show in the evening.
+Local Cuisine to Try:
+
+Dim Sum at Disneyland’s Chinese restaurants, and try the Disneyland Pineapple Bun.
+Day 5: Macau Day Trip
+Morning:
+
+Take a ferry to Macau (about 1 hour).
+Visit the Ruins of St. Paul’s and the Macau Museum.
+Afternoon:
+
+Explore Senado Square and Monte Fort for more historical insights.
+Visit the Venetian Macao for shopping and a gondola ride.
+Evening:
+
+Return to Hong Kong by ferry.
+Local Cuisine to Try:
+
+Macau Egg Tarts and Pork Chop Bun.
+Day 6: Shopping in Mong Kok & Nathan Road
+Morning:
+
+Visit the Ladies Market in Mong Kok for clothes, electronics, and souvenirs.
+Afternoon:
+
+Stroll along Nathan Road, known for shopping and bright neon lights.
+Evening:
+
+Visit Temple Street Night Market for street food and inexpensive items.
+Local Cuisine to Try:
+
+Claypot Rice and Stinky Tofu from Temple Street.
+Bubble Tea.
+Day 7: Hong Kong Island & South Side
+Morning:
+
+Take a bus to Stanley Market and explore the beachside shopping areas.
+Visit the Hong Kong Maritime Museum.
+Afternoon:
+
+Head to Repulse Bay for some beach time and relaxation.
+Explore Aberdeen Fishing Village to see the traditional lifestyle.
+Evening:
+
+Return to Central and have dinner at a rooftop restaurant like Ozone at the Ritz-Carlton.
+Local Cuisine to Try:
+
+Seafood from one of the floating restaurants in Aberdeen.
+Day 8: Nature and Hiking
+Morning:
+
+Hike the Dragon’s Back Trail, offering stunning views of the coastline and nearby islands.
+Afternoon:
+
+Relax at Shek O Beach or explore Big Wave Bay.
+Evening:
+
+Return to Hong Kong Island, and explore the nightlife in Lan Kwai Fong or Soho.
+Local Cuisine to Try:
+
+Pineapple Bun with butter, a local snack at bakeries like Australia Dairy Company.
+Day 9: Cultural and Spiritual Exploration
+Morning:
+
+Visit the Man Mo Temple in Sheung Wan for a peaceful cultural experience.
+Afternoon:
+
+Explore Wong Tai Sin Temple—known for fortune-telling.
+Visit the Chi Lin Nunnery and Nan Lian Garden for tranquil beauty.
+Evening:
+
+Walk around Causeway Bay for shopping and dinner.
+Local Cuisine to Try:
+
+Char Siu (BBQ Pork) at Joy Hing Roasted Meat.
+Day 10: Final Day - Relax and Departure
+Morning:
+
+Relax at Hong Kong Park or take a stroll through Kowloon Park.
+Afternoon:
+
+Visit Hong Kong Science Museum or enjoy some last-minute shopping at Pacific Place.
+Evening:
+
+Take a leisurely walk along Victoria Harbour or enjoy dinner at a nice restaurant.
+Depart for the airport.
+Local Cuisine to Try:
+
+Dim Sum for your last meal—choose a place near your hotel for convenience.
+Top 6 Must-See Places
+Victoria Peak – Best panoramic views of Hong Kong.
+Tian Tan Buddha (Big Buddha) on Lantau Island.
+Hong Kong Disneyland for a magical experience.
+Macau for its rich history and colonial architecture.
+Stanley Market & Repulse Bay for a relaxing day by the beach.
+Ngong Ping 360 Cable Car and Tai O Fishing Village for scenic views and cultural experiences.
+Enjoy your trip to Hong Kong—it's a place that truly offers something for everyone!
+
+----------------------------------------------------------------------
+Prompt 6:
+
+Tóm tắt nội dung đoạn văn sau đây theo từng gạch đầu dòng bằng tiếng Việt
+Hãy bắt đầu với: "Lịch sử của Internet bắt đầu từ"
+
+Lịch sử Internet bắt đầu với việc phát triển máy tính điện tử trong những năm 1950. Các khái niệm ban đầu về mạng diện rộng bắt nguồn từ một số phòng thí nghiệm khoa học máy tính ở Mỹ, Vương quốc Anh và Pháp.[1] Bộ Quốc phòng Mỹ đã trao các hợp đồng sớm nhất là vào những năm 1960, bao gồm cả việc phát triển dự án ARPANET, lãnh đạo bởi Robert Taylor và quản lý bởi Lawrence Roberts. Tin nhắn đầu tiên được gửi qua ARPANET vào năm 1969 từ phòng thí nghiệm của giáo sư khoa học Leonard Kleinrock tại University of California, Los Angeles (UCLA) đến nút mạng thứ hai tại Stanford Research Institute (SRI).
+
+Mạng chuyển mạch gói như NPL network, ARPANET, Tymnet, Merit Network, CYCLADES, và Telenet, được phát triển vào cuối những năm 1960 và đầu những năm 1970 bằng nhiều giao thức truyền thông.[2] Donald Davies lần đầu tiên chứng minh chuyển mạch gói vào năm 1967 tại National Physics Laboratory (NPL) ở Anh, nơi đã trở thành một thử nghiệm cho nghiên cứu của Vương quốc Anh trong gần hai thập kỷ.[3][4] Dự án ARPANET đã dẫn đến sự phát triển của các giao thức cho liên mạng, trong đó nhiều mạng riêng biệt có thể được nối vào một mạng các mạng.
+
+Bộ giao thức Internet (TCP/IP) được phát triển bởi Robert E. Kahn và Vint Cerf những năm 1970 và trở thành giao thức mạng chuẩn trên ARPANET, kết hợp các khái niệm từ dự án CYCLADES của Pháp do Louis Pouzin chỉ đạo. Đầu những năm 1980, NSF đã tài trợ cho việc thành lập các trung tâm siêu máy tính quốc gia tại một số trường đại học và cung cấp kết nối vào năm 1986 với dự án NSFNET, cũng tạo ra quyền truy cập mạng vào các siêu máy tính ở Hoa Kỳ từ các tổ chức nghiên cứu và giáo dục. Các nhà cung cấp dịch vụ Internet (ISPs) bắt đầu xuất hiện vào cuối những năm 1980. ARPANET đã ngừng hoạt động vào năm 1990. Các kết nối riêng tư hạn chế với các bộ phận của Internet bởi các thực thể thương mại chính thức xuất hiện ở một số thành phố của Mỹ vào cuối năm 1989 và 1990,[5] và NSFNET đã ngừng hoạt động vào năm 1995, xóa bỏ những hạn chế cuối cùng đối với việc sử dụng Internet để mang theo giao thông thương mại.
+
+Vào những năm 1980, nghiên cứu tại CERN ở Thụy Sĩ của nhà khoa học máy tính người Anh Tim Berners-Lee đã đưa ra World Wide Web, liên kết các tài liệu siêu văn bản vào một hệ thống thông tin, có thể truy cập từ bất kỳ nút nào trên mạng.[6] Từ giữa những năm 1990, Internet đã có một tác động mang tính cách mạng đối với văn hóa, thương mại và công nghệ, bao gồm sự gia tăng của giao tiếp gần như ngay lập tức bằng thư điện tử, tin nhắn tức thời, cuộc gọi qua điện thoại Giao thức Internet (VoIP), tương tác hai chiều các cuộc gọi video và World Wide Web với các diễn đàn thảo luận, blog, mạng xã hội và các trang web mua sắm trực tuyến. Cộng đồng nghiên cứu và giáo dục tiếp tục phát triển và sử dụng các mạng tiên tiến như JANET ở Vương quốc Anh và Internet2 ở Hoa Kỳ. Lượng dữ liệu ngày càng tăng được truyền ở tốc độ cao hơn và cao hơn trên các mạng cáp quang hoạt động ở tốc độ 1 Gbit/s, 10 Gbit/s hoặc nhiều hơn. Internet tiếp quản bối cảnh truyền thông toàn cầu gần như ngay lập tức về mặt lịch sử: nó chỉ truyền được 1% thông tin truyền qua mạng viễn thông hai chiều vào năm 1993, đã là 51% vào năm 2000 và hơn 97% thông tin được điều khiển vào năm 2007.[7] ngày nay Internet tiếp tục phát triển, được thúc đẩy bởi lượng thông tin trực tuyến, thương mại, giải trí và mạng xã hội lớn hơn bao giờ hết. Tuy nhiên, tương lai của internet toàn cầu có thể được định hình bởi sự khác biệt trong khu vực trên thế giới.
+
+Output:
+Lịch sử của Internet bắt đầu từ việc phát triển máy tính điện tử trong những năm 1950.
+Các khái niệm ban đầu về mạng diện rộng bắt nguồn từ các phòng thí nghiệm khoa học máy tính ở Mỹ, Vương quốc Anh và Pháp.
+1960s: Bộ Quốc phòng Mỹ cấp các hợp đồng để phát triển ARPANET, dự án được lãnh đạo bởi Robert Taylor và quản lý bởi Lawrence Roberts.
+1969: Tin nhắn đầu tiên được gửi qua ARPANET từ UCLA đến Stanford Research Institute.
+1960s-1970s: Các mạng chuyển mạch gói như ARPANET, NPL, Tymnet được phát triển với các giao thức truyền thông khác nhau.
+1967: Donald Davies chứng minh chuyển mạch gói tại National Physics Laboratory (Anh).
+Dự án ARPANET dẫn đến việc phát triển các giao thức liên mạng cho phép kết nối nhiều mạng riêng biệt.
+1970s: Bộ giao thức TCP/IP được phát triển bởi Robert E. Kahn và Vint Cerf, trở thành giao thức chuẩn của ARPANET.
+1980s: NSF tài trợ việc thành lập các trung tâm siêu máy tính quốc gia và cung cấp kết nối mạng qua NSFNET từ 1986.
+Cuối những năm 1980: Các nhà cung cấp dịch vụ Internet (ISPs) bắt đầu xuất hiện, ARPANET ngừng hoạt động vào năm 1990.
+1989-1990: Các kết nối Internet thương mại hạn chế xuất hiện tại một số thành phố Mỹ và NSFNET kết thúc vào năm 1995.
+1980s: Tim Berners-Lee tại CERN phát triển World Wide Web, kết nối các tài liệu siêu văn bản.
+1990s: Internet bắt đầu ảnh hưởng sâu rộng đến văn hóa, thương mại và công nghệ với email, tin nhắn tức thời, VoIP, video call và World Wide Web.
+Các mạng nghiên cứu và giáo dục như JANET (Anh) và Internet2 (Mỹ) tiếp tục phát triển.
+2000s: Internet tăng trưởng mạnh mẽ, từ việc chỉ truyền 1% thông tin viễn thông vào năm 1993 lên hơn 97% vào năm 2007.
+Hiện tại: Internet tiếp tục phát triển với sự gia tăng thông tin trực tuyến, thương mại, giải trí và mạng xã hội, nhưng tương lai có thể bị ảnh hưởng bởi sự khác biệt khu vực.
